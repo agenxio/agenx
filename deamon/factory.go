@@ -1,4 +1,4 @@
-package scribe
+package deamon
 
 import (
 	"fmt"

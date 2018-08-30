@@ -1,11 +1,7 @@
-package scribe
+package deamon
 
 import (
-	"github.com/queueio/sentry/utils/command"
+	"github.com/agenxio/agenx/common/command"
 )
 
-// Name of this SENTRY
-var Name = "scribe"
-
-// Root command to handle SENTRY client
-var Command = command.Root(Name, "", New)
+var Command = command.Root("Agx", "", New)

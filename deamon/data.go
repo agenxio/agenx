@@ -1,4 +1,4 @@
-package scribe
+package deamon
 
 import (
 	"github.com/queueio/sentry/utils/types/event"

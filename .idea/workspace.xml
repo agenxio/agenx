@@ -2,82 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad1bb9d-0f59-4919-9beb-c7b82f1402be" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/agenx.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bench/bench.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/command/instance/instance.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/command/instance/instance_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/command/root.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/command/run.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/command/setup.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/command/test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/command/test/config.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/command/version.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/job/executor.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/job/task.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/job/wrapper.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/log/file.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/log/log.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/log/logger.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/log/logp.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/log/syslog_other.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/log/syslog_unix.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/console/client.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/console/config.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/console/console.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/console/console_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/elasticsearch/bulk.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/elasticsearch/client.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/elasticsearch/config.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/elasticsearch/elasticsearch.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/elasticsearch/elasticsearch_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/influxdb/client.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/influxdb/config.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/influxdb/error.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/influxdb/influxdb.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/node/client.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/node/config.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/node/node.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/node/node_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/node/publish.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/outputs.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/register.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/outputs/util.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/command.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/config.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/data.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/factory.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/input.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/collector.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/config.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/file.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/log.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/reader/encode.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/reader/json.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/reader/json_config.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/reader/limit.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/reader/line.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/reader/message.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/reader/multiline.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/reader/multiline_config.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/reader/reader.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/reader/strip_newline.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/reader/timeout.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/log/scanner.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/metric/metric.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/metric/plugins/sentry.scribe.docker.metrics.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/module.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/registry.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/reload.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/robot.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/runner.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/scribe.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/signalwait.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/source.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/stamp.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/state.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deamon/util.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/main_test.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common/types/event/event.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common/types/maps/interface.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common/types/maps/structs.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common/types/object.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common/types/str/array.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common/types/str/slice.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common/types/str/template.go" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/deamon/command.go" afterPath="$PROJECT_DIR$/deamon/command.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/config.go" afterPath="$PROJECT_DIR$/deamon/config.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/data.go" afterPath="$PROJECT_DIR$/deamon/data.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/factory.go" afterPath="$PROJECT_DIR$/deamon/factory.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/input.go" afterPath="$PROJECT_DIR$/deamon/input.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/module.go" afterPath="$PROJECT_DIR$/deamon/module.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/registry.go" afterPath="$PROJECT_DIR$/deamon/registry.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/reload.go" afterPath="$PROJECT_DIR$/deamon/reload.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/robot.go" afterPath="$PROJECT_DIR$/deamon/robot.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/runner.go" afterPath="$PROJECT_DIR$/deamon/runner.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/scribe.go" afterPath="$PROJECT_DIR$/deamon/deamon.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/signalwait.go" afterPath="$PROJECT_DIR$/deamon/signal.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/source.go" afterPath="$PROJECT_DIR$/deamon/source.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/stamp.go" afterPath="$PROJECT_DIR$/deamon/stamp.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/state.go" afterPath="$PROJECT_DIR$/deamon/state.go" />
+      <change beforePath="$PROJECT_DIR$/deamon/util.go" afterPath="$PROJECT_DIR$/deamon/util.go" />
+      <change beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
+      <change beforePath="$PROJECT_DIR$/main_test.go" afterPath="$PROJECT_DIR$/main_test.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,41 +38,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="json.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deamon/log/reader/json.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#16#244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="array.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/types/str/array.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slice.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/types/str/slice.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/types/str/template.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="object.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/types/object.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interface.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/types/maps/interface.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="structs.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/types/maps/structs.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/types/event/event.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#121#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deamon/log/log.go">
+      <file leaf-file-name="main_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/log/log.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agenx.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agenx.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -144,9 +158,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/agenx.yml.go" />
+        <option value="$PROJECT_DIR$/deamon/deamon.go" />
+        <option value="$PROJECT_DIR$/deamon/data.go" />
+        <option value="$PROJECT_DIR$/deamon/config.go" />
+        <option value="$PROJECT_DIR$/deamon/factory.go" />
+        <option value="$PROJECT_DIR$/deamon/command.go" />
+        <option value="$PROJECT_DIR$/deamon/input.go" />
+        <option value="$PROJECT_DIR$/deamon/module.go" />
+        <option value="$PROJECT_DIR$/deamon/registry.go" />
+        <option value="$PROJECT_DIR$/deamon/reload.go" />
+        <option value="$PROJECT_DIR$/deamon/robot.go" />
+        <option value="$PROJECT_DIR$/deamon/runner.go" />
+        <option value="$PROJECT_DIR$/deamon/source.go" />
+        <option value="$PROJECT_DIR$/deamon/stamp.go" />
+        <option value="$PROJECT_DIR$/deamon/state.go" />
+        <option value="$PROJECT_DIR$/deamon/util.go" />
+        <option value="$PROJECT_DIR$/deamon/signal.go" />
+        <option value="$PROJECT_DIR$/common/types/event/event.go" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/main_test.go" />
-        <option value="$PROJECT_DIR$/agenx.yml.go" />
       </list>
     </option>
   </component>
@@ -184,6 +215,16 @@
               <item name="agenx" type="b2602c69:ProjectViewProjectNode" />
               <item name="agenx" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="agenx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agenx" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agenx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agenx" type="462c0819:PsiDirectoryNode" />
+              <item name="deamon" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -196,6 +237,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -220,8 +262,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -251,14 +294,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/agenx.yml.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -283,14 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deamon/log/log.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -303,6 +330,252 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spf13/cobra/command.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/factory.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/input.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/module.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/registry.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/reload.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/robot.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/runner.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/source.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/stamp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/state.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/util.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/command.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <element signature="e#16#69#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/data.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/deamon.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/signal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/log/collector.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/log/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/log/reader/encode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deamon/log/reader/json.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#16#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/types/str/array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/types/str/slice.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/types/str/template.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/types/object.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/types/maps/interface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/types/maps/structs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/types/event/event.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>

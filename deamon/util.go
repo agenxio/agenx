@@ -1,4 +1,4 @@
-package scribe
+package deamon
 
 import (
 	"github.com/elastic/beats/libbeat/common/match"
